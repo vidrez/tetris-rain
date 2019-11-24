@@ -1,0 +1,25 @@
+html {
+  margin:0;
+  padding:0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.container {
+  min-width = 100vw;
+  min-height = 100vh;
+}
+
+.cube {
+  position:absolute;
+  animation: cube 2s infinite;
+}
+
+@keyframes cube {
+  from {
+    opacity: 1;
+  }
+  to { 
+    opacity: 0;
+  }
+}
